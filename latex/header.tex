@@ -1,0 +1,20 @@
+\usepackage[utf8x]{inputenc}
+\usepackage{xcolor}
+\usepackage{listings}
+\usepackage{cite}
+\usepackage{caption}
+\usepackage{graphicx}
+\usepackage{sectsty}
+\usepackage{blindtext}
+\usepackage{newcent}
+\usepackage[T1]{fontenc}
+\usepackage{tgbonum}
+\usepackage{amsmath}
+\usepackage{etoolbox}
+
+\makeatletter
+
+\pagecolor{white}
+\renewcommand {\thesectiondis} {\Roman{section}}
+\renewcommand {\thesubsectiondis} {\thesectiondis.\Alph{subsection}}
+\renewcommand {\thesubsubsectiondis}{\thesubsectiondis.\arabic{subsubsection}}
